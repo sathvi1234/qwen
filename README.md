@@ -6,8 +6,3 @@ Visitors enter their name, add a photo, and download or share their own "I'm Att
 - `assets/poster-template.jpg` is the supplied event poster. Name and photo are drawn into the frame and pill using the geometry constants at the top of `script.js` (`CARD`, `PHOTO`, `PILL`).
 - Unofficial community tool. It does not register anyone for the event.
 
-## Run locally
-    python3 -m http.server 8080
-
-## Deploy on Vercel
-Import the folder with framework preset **Other** (no build command).
